@@ -1,3 +1,6 @@
+ENTREGA FINAL REACT CURSO CODERHOUSE!
+Ecommerce sencillo con interactividad con Firebase, componentes, auth y compras que se guardan en firebase.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
