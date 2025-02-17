@@ -1,0 +1,62 @@
+/* Estilo para el menú desplegable fijo */
+.fixed-dropdown-menu {
+    position: fixed;
+    top: 50px; /* Puedes ajustar la distancia desde la parte superior */
+    right: 20px; /* Puedes ajustar la distancia desde la derecha */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Ajusta el tamaño si lo necesitas */
+    z-index: 9999; /* Asegura que el menú esté por encima de otros elementos */
+  }
+  
+  .dropdown-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-item {
+    font-size: 14px;
+    padding: 5px 0;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilo para el overlay de cierre */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998; /* Justo debajo del menú */
+  }
+  
+  /* Estilo para los detalles de la orden */
+  .order-details {
+    position: fixed;
+    top: 50px; /* Ajusta la distancia desde la parte superior */
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    z-index: 9999;
+  }
+  
+  .order-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-details li {
+    margin-bottom: 10px;
+  }
